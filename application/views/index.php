@@ -26,11 +26,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //Meta tag Keywords -->
 
 	<!-- Custom-Files -->
-	<!-- <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/bootstrap.css"> -->
+	<link rel="stylesheet" href="<?= base_url(); ?>/assets/css/bootstrap.css">
 	<!-- Bootstrap-Core-CSS -->
-	<!-- <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/style.css" type="text/css" media="all" /> -->
+	<link rel="stylesheet" href="<?= base_url(); ?>/assets/css/style.css" type="text/css" media="all" />
 	<!-- Style-CSS -->
-	<!-- <link href="<?= base_url()?>/css/font-awesome.min.css" rel="stylesheet"> -->
+	<link href="<?= base_url()?>/css/font-awesome.min.css" rel="stylesheet">
 	<!-- Font-Awesome-Icons-CSS -->
 	<!-- //Custom-Files -->
 	<?php 
