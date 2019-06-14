@@ -1,408 +1,429 @@
+
 <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
-
-<!DOCTYPE html>
-<html lang="zxx">
-
+<!DOCTYPE HTML>
+<html>
 <head>
-	<title>Startup a Corporate Category Bootstrap Responsive Website Template | Home :: W3layouts</title>
-	<!-- Meta tag Keywords -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8" />
-	<meta name="keywords" content="Startup Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-	<script>
-		addEventListener("load", function () {
-			setTimeout(hideURLbar, 0);
-		}, false);
-
-		function hideURLbar() {
-			window.scrollTo(0, 1);
-		}
-	</script>
-	<!-- //Meta tag Keywords -->
-
-	<!-- Custom-Files -->
-	<link rel="stylesheet" href="<?= base_url(); ?>/assets/css/bootstrap.css">
-	<!-- Bootstrap-Core-CSS -->
-	<link rel="stylesheet" href="<?= base_url(); ?>/assets/css/style.css" type="text/css" media="all" />
-	<!-- Style-CSS -->
-	<link href="<?= base_url()?>/css/font-awesome.min.css" rel="stylesheet">
-	<!-- Font-Awesome-Icons-CSS -->
-	<!-- //Custom-Files -->
-	<?php 
-		echo base_url();
-	?>
-	<!-- Web-Fonts -->
-	<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=devanagari,latin-ext"
-	 rel="stylesheet">
-	<!-- //Web-Fonts -->
+<title>Business_Blog a Blogging Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Business_Blog Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="applijewelleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel='stylesheet' type='text/css' />	
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </head>
-
 <body>
-	<!-- main banner -->
-	<div class="main-top" id="home">
-		<!-- header -->
-		<header>
-			<div class="container-fluid">
-				<div class="header d-lg-flex justify-content-between align-items-center py-3 px-sm-3">
-					<!-- logo -->
-					<div id="logo">
-						<h1><a href="index.html"><span class="fa fa-linode mr-2"></span>Startup</a></h1>
-					</div>
-					<!-- //logo -->
-					<!-- nav -->
-					<div class="nav_w3ls">
-						<nav>
-							<label for="drop" class="toggle">Menu</label>
-							<input type="checkbox" id="drop" />
-							<ul class="menu">
-								<li><a href="index.html" class="active">Home</a></li>
-								<li><a href="about.html">About Us</a></li>
-								<li><a href="pricing.html">Pricing</a></li>
-								<li>
-									<!-- First Tier Drop Down -->
-									<label for="drop-2" class="toggle toogle-2">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span>
-									</label>
-									<a href="#">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span></a>
-									<input type="checkbox" id="drop-2" />
-									<ul>
-										<li><a href="#services" class="drop-text">Services</a></li>
-										<li><a href="faq.html" class="drop-text">Faq's</a></li>
-										<li><a href="404.html" class="drop-text">404</a></li>
-										<li><a href="#stats" class="drop-text">Statistics</a></li>
-										<li><a href="about.html" class="drop-text">Why Choose Us?</a></li>
-										<li><a href="about.html" class="drop-text">Our Team</a></li>
-										<li><a href="#partners" class="drop-text">Partners</a></li>
-									</ul>
-								</li>
-								<li><a href="contact.html">Contact Us</a></li>
-							</ul>
-						</nav>
-					</div>
-					<!-- //nav -->
-					<div class="d-flex mt-lg-1 mt-sm-2 mt-3 justify-content-center">
-						<!-- search -->
-						<div class="search-w3layouts mr-3">
-							<form action="#" method="post" class="search-bottom-wthree d-flex">
-								<input class="search" type="search" placeholder="Search Here..." required="">
-								<button class="form-control btn" type="submit"><span class="fa fa-search"></span></button>
+	<!--start-main-->
+           <div class="header">
+		        <div class="header-top">
+			        <div class="container">
+						<div class="logo">
+							<a href="index.html"><h1>BUSINESS BLOG</h1></a>
+						</div>
+						<div class="search">
+							<form>
+								<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+								<input type="submit" value="">
 							</form>
 						</div>
-						<!-- //search -->
-						<!-- download -->
-						<a class="dwn-w3ls btn" href="http://w3layouts.com/" target="_blank">
-							<span class="fa fa-cloud-download"></span>
-						</a>
-						<!-- //download -->
+						<div class="social">
+							<ul>
+								<li><a href="#" class="facebook"> </a></li>
+								<li><a href="#" class="facebook twitter"> </a></li>
+								<li><a href="#" class="facebook chrome"> </a></li>
+								<li><a href="#" class="facebook in"> </a></li>
+								<li><a href="#" class="facebook beh"> </a></li>
+								<li><a href="#" class="facebook vem"> </a></li>
+								<li><a href="#" class="facebook yout"> </a></li>
+							</ul>
+						</div>
+						<div class="clearfix"></div>
 					</div>
 				</div>
-			</div>
-		</header>
-		<!-- //header -->
-
-		<!-- banner -->
-		<div class="banner_w3lspvt position-relative">
-			<div class="container">
-				<div class="d-md-flex">
-					<div class="w3ls_banner_txt">
-						<h3 class="w3ls_pvt-title">Business <br><span>Startup</span></h3>
-						<p class="text-sty-banner">Sed ut perspiciatis unde omnis iste natus doloremque
-							laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.</p>
-						<a href="about.html" class="btn button-style mt-md-5 mt-4">Read More</a>
-					</div>
-					<div class="banner-img">
-						<img src="images/banner.png" alt="" class="img-fluid">
-					</div>
-				</div>
-			</div>
-			<!-- animations effects -->
-			<div class="icon-effects-w3l">
-				<img src="images/shape1.png" alt="" class="img-fluid shape-wthree shape-w3-one">
-				<img src="images/shape2.png" alt="" class="img-fluid shape-wthree shape-w3-two">
-				<img src="images/shape3.png" alt="" class="img-fluid shape-wthree shape-w3-three">
-				<img src="images/shape5.png" alt="" class="img-fluid shape-wthree shape-w3-four">
-				<img src="images/shape4.png" alt="" class="img-fluid shape-wthree shape-w3-five">
-				<img src="images/shape6.png" alt="" class="img-fluid shape-wthree shape-w3-six">
-			</div>
-			<!-- //animations effects -->
-		</div>
-		<!-- //banner -->
+			
+<!--head-bottom-->
+<div class="head-bottom">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tech <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="tech.html">Action</a></li>
+				 <li><a href="tech.html">Action</a></li>
+				  <li><a href="tech.html">Action</a></li>
+              </ul>
+            </li>
+			<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Culture <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+                <li><a href="singlepage.html">Action</a></li>
+				 <li><a href="singlepage.html">Action</a></li>
+				  <li><a href="singlepage.html">Action</a></li>
+              </ul>
+            </li>
+			 <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Science <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="singlepage.html">Action</a></li>
+				 <li><a href="singlepage.html">Action</a></li>
+				  <li><a href="singlepage.html">Action</a></li>
+              </ul>
+            </li>
+			   <li><a href="design.html">Design</a></li>
+			    <li><a href="business.html">Business</a></li>
+				 <li><a href="world.html">World</a></li>
+				  <li><a href="forum.html">Forum</a></li>
+				   <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+</div>
+<!--head-bottom-->
+</div>	
+<!-- banner -->
+<div class="banner">
+	<div class="container">
+		<h2>Contrary to popular belief, Lorem Ipsum simply</h2>
+		<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+		<a href="#">READ ARTICLE</a>
 	</div>
-	<!-- //main banner -->
-
-	<!-- what we do section -->
-	<div class="what bg-li py-5" id="what">
-		<div class="container py-xl-5 py-lg-3">
-			<div class="row about-bottom-w3l text-center mt-4">
-				<div class="col-lg-4 about-grid">
-					<div class="about-grid-main">
-						<img src="images/img1.png" alt="" class="img-fluid">
-						<h4 class="my-4">Dolor Sit</h4>
-						<p> Ut enim ad minim veniam, quis nostrud.Excepteur sint occaecat cupidatat non proident</p>
-						<a href="about.html" class="button-w3ls btn mt-sm-5 mt-4">Read More</a>
-					</div>
-				</div>
-				<div class="col-lg-4 about-grid my-lg-0 my-5">
-					<div class="about-grid-main">
-						<img src="images/img2.png" alt="" class="img-fluid">
-						<h4 class="my-4">Conse Tetur</h4>
-						<p>Ut enim ad minim veniam, quis nostrud.Excepteur sint occaecat cupidatat non proident</p>
-						<a href="about.html" class="button-w3ls btn mt-sm-5 mt-4">Read More</a>
-					</div>
-				</div>
-				<div class="col-lg-4 about-grid">
-					<div class="about-grid-main">
-						<img src="images/img3.png" alt="" class="img-fluid">
-						<h4 class="my-4">Adip Cing</h4>
-						<p>Ut enim ad minim veniam, quis nostrud.Excepteur sint occaecat cupidatat non proident</p>
-						<a href="about.html" class="button-w3ls btn mt-sm-5 mt-4">Read More</a>
-					</div>
-				</div>
+</div>
+<!-- technology -->
+<div class="technology">
+	<div class="container">
+		<div class="col-md-9 technology-left">
+		<div class="tech-no">
+			<!-- technology-top -->
+			<div class="soci">
+				<ul>
+					<li><a href="#" class="facebook-1"> </a></li>
+					<li><a href="#" class="facebook-1 twitter"> </a></li>
+					<li><a href="#" class="facebook-1 chrome"> </a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-envelope"> </i></a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-print"> </i></a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-plus"> </i></a></li>
+				</ul>
 			</div>
+			 <div class="tc-ch">
+				
+					<div class="tch-img">
+						<a href="singlepage.html"><img src="images/1.jpg" class="img-responsive" alt=""/></a>
+					</div>
+					<a class="blog blue" href="singlepage.html">Technology</a>
+					<h3><a href="singlepage.html">Lorem Ipsum is simply</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<p>Ut enim ad minim veniam, quis nostrud eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					
+						<div class="blog-poast-info">
+							<ul>
+								<li><i class="glyphicon glyphicon-user"> </i><a class="admin" href="#"> Admin </a></li>
+								<li><i class="glyphicon glyphicon-calendar"> </i>30-12-2015</li>
+								<li><i class="glyphicon glyphicon-comment"> </i><a class="p-blog" href="#">3 Comments </a></li>
+								<li><i class="glyphicon glyphicon-heart"> </i><a class="admin" href="#">5 favourites </a></li>
+								<li><i class="glyphicon glyphicon-eye-open"> </i>1.128 views</li>
+							</ul>
+						</div>
+			</div>
+			<div class="clearfix"></div>
+			<!-- technology-top -->
+			<!-- technology-top -->
+			<div class="soci">
+				<ul>
+					<li><a href="#" class="facebook-1"> </a></li>
+					<li><a href="#" class="facebook-1 twitter"> </a></li>
+					<li><a href="#" class="facebook-1 chrome"> </a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-envelope"> </i></a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-print"> </i></a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-plus"> </i></a></li>
+				</ul>
+			</div>
+			 <div class="tc-ch">
+				
+					<div class="tch-img">
+						<a href="singlepage.html"><img src="images/2.jpg" class="img-responsive" alt=""/></a>
+					</div>
+					<a class="blog pink" href="singlepage.html">Science</a>
+					<h3><a href="singlepage.html">Lorem Ipsum is simply</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<p>Ut enim ad minim veniam, quis nostrud eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					
+						<div class="blog-poast-info">
+							<ul>
+								<li><i class="glyphicon glyphicon-user"> </i><a class="admin" href="#"> Admin </a></li>
+								<li><i class="glyphicon glyphicon-calendar"> </i>30-12-2015</li>
+								<li><i class="glyphicon glyphicon-comment"> </i><a class="p-blog" href="#">3 Comments </a></li>
+								<li><i class="glyphicon glyphicon-heart"> </i><a class="admin" href="#">5 favourites </a></li>
+								<li><i class="glyphicon glyphicon-eye-open"> </i>1.128 views</li>
+							</ul>
+						</div>
+			</div>
+			<!-- technology-top -->
+			<!-- technology-top -->
+			<div class="soci">
+				<ul>
+					<li><a href="#" class="facebook-1"> </a></li>
+					<li><a href="#" class="facebook-1 twitter"> </a></li>
+					<li><a href="#" class="facebook-1 chrome"> </a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-envelope"> </i></a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-print"> </i></a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-plus"> </i></a></li>
+				</ul>
+			</div>
+			 <div class="tc-ch">
+				
+					<div class="tch-img">
+						<a href="singlepage.html"><img src="images/3.jpg" class="img-responsive" alt=""/></a>
+					</div>
+					<a class="blog gren" href="singlepage.html">Culture</a>
+					<h3><a href="singlepage.html">Lorem Ipsum is simply</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<p>Ut enim ad minim veniam, quis nostrud eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					
+						<div class="blog-poast-info">
+							<ul>
+								<li><i class="glyphicon glyphicon-user"> </i><a class="admin" href="#"> Admin </a></li>
+								<li><i class="glyphicon glyphicon-calendar"> </i>30-12-2015</li>
+								<li><i class="glyphicon glyphicon-comment"> </i><a class="p-blog" href="#">3 Comments </a></li>
+								<li><i class="glyphicon glyphicon-heart"> </i><a class="admin" href="#">5 favourites </a></li>
+								<li><i class="glyphicon glyphicon-eye-open"> </i>1.128 views</li>
+							</ul>
+						</div>
+			</div>
+			<!-- technology-top -->
+			<!-- technology-top -->
+			<div class="soci">
+				<ul>
+					<li><a href="#" class="facebook-1"> </a></li>
+					<li><a href="#" class="facebook-1 twitter"> </a></li>
+					<li><a href="#" class="facebook-1 chrome"> </a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-envelope"> </i></a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-print"> </i></a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-plus"> </i></a></li>
+				</ul>
+			</div>
+			 <div class="tc-ch">
+					<div class="tch-img">
+						<a href="singlepage.html"><img src="images/4.jpg" class="img-responsive" alt=""/></a>
+					</div>
+					<a class="blog orn" href="singlepage.html">Business</a>
+					<h3><a href="singlepage.html">Lorem Ipsum is simply</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<p>Ut enim ad minim veniam, quis nostrud eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					
+						<div class="blog-poast-info">
+							<ul>
+								<li><i class="glyphicon glyphicon-user"> </i><a class="admin" href="#"> Admin </a></li>
+								<li><i class="glyphicon glyphicon-calendar"> </i>30-12-2015</li>
+								<li><i class="glyphicon glyphicon-comment"> </i><a class="p-blog" href="#">3 Comments </a></li>
+								<li><i class="glyphicon glyphicon-heart"> </i><a class="admin" href="#">5 favourites </a></li>
+								<li><i class="glyphicon glyphicon-eye-open"> </i>1.128 views</li>
+							</ul>
+						</div>
+			</div>
+			<!-- technology-top -->
+			<!-- technology-top -->
+			<div class="soci">
+				<ul>
+					<li><a href="#" class="facebook-1"> </a></li>
+					<li><a href="#" class="facebook-1 twitter"> </a></li>
+					<li><a href="#" class="facebook-1 chrome"> </a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-envelope"> </i></a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-print"> </i></a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-plus"> </i></a></li>
+				</ul>
+			</div>
+			 <div class="tc-ch">
+				
+					<div class="tch-img">
+						<a href="singlepage.html"><img src="images/5.jpg" class="img-responsive" alt=""/></a>
+					</div>
+					<a class="blog blue" href="singlepage.html">Technology</a>
+					<h3><a href="singlepage.html">Lorem Ipsum is simply</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<p>Ut enim ad minim veniam, quis nostrud eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					
+						<div class="blog-poast-info">
+							<ul>
+								<li><i class="glyphicon glyphicon-user"> </i><a class="admin" href="#"> Admin </a></li>
+								<li><i class="glyphicon glyphicon-calendar"> </i>30-12-2015</li>
+								<li><i class="glyphicon glyphicon-comment"> </i><a class="p-blog" href="#">3 Comments </a></li>
+								<li><i class="glyphicon glyphicon-heart"> </i><a class="admin" href="#">5 favourites </a></li>
+								<li><i class="glyphicon glyphicon-eye-open"> </i>1.128 views</li>
+							</ul>
+						</div>
+			</div>
+			<!-- technology-top -->
+			</div>
+		</div>
+		<!-- technology-right -->
+		<div class="col-md-3 technology-right">
+				<div class="blo-top">
+					<div class="tech-btm">
+					<img src="images/banner1.jpg" class="img-responsive" alt=""/>
+					</div>
+				</div>
+				<div class="blo-top">
+					<div class="tech-btm">
+					<h4>Sign up to our newsletter</h4>
+					<p>Pellentesque dui, non felis. Maecenas male</p>
+						<div class="name">
+							<form>
+								<input type="text" placeholder="Email" required="">
+							</form>
+						</div>	
+						<div class="button">
+							<form>
+								<input type="submit" value="Subscribe">
+							</form>
+						</div>
+							<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="blo-top1">
+					<div class="tech-btm">
+					<h4>Top stories of the week </h4>
+						<div class="blog-grids">
+							<div class="blog-grid-left">
+								<a href="singlepage.html"><img src="images/6.jpg" class="img-responsive" alt=""/></a>
+							</div>
+							<div class="blog-grid-right">
+								
+								<h5><a href="singlepage.html">Pellentesque dui, non felis. Maecenas male</a> </h5>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="blog-grids">
+							<div class="blog-grid-left">
+								<a href="singlepage.html"><img src="images/7.jpg" class="img-responsive" alt=""/></a>
+							</div>
+							<div class="blog-grid-right">
+								
+								<h5><a href="singlepage.html">Pellentesque dui, non felis. Maecenas male</a> </h5>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="blog-grids">
+							<div class="blog-grid-left">
+								<a href="singlepage.html"><img src="images/11.jpg" class="img-responsive" alt=""/></a>
+							</div>
+							<div class="blog-grid-right">
+								
+								<h5><a href="singlepage.html">Pellentesque dui, non felis. Maecenas male</a> </h5>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="blog-grids">
+							<div class="blog-grid-left">
+								<a href="singlepage.html"><img src="images/9.jpg" class="img-responsive" alt=""/></a>
+							</div>
+							<div class="blog-grid-right">
+								
+								<h5><a href="singlepage.html">Pellentesque dui, non felis. Maecenas male</a> </h5>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="blog-grids">
+							<div class="blog-grid-left">
+								<a href="singlepage.html"><img src="images/10.jpg" class="img-responsive" alt=""/></a>
+							</div>
+							<div class="blog-grid-right">
+								
+								<h5><a href="singlepage.html">Pellentesque dui, non felis. Maecenas male</a> </h5>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+			
+		</div>
+		<div class="clearfix"></div>
+		<!-- technology-right -->
+	</div>
+</div>
+<!-- technology -->
+<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="col-md-4 footer-left">
+				<h6>THIS LOOKS GREAT</h6>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt consectetur adipisicing elit,</p>
+			</div>
+			<div class="col-md-4 footer-middle">
+			<h4>Twitter Feed</h4>
+			<div class="mid-btm">
+				<p>Consectetur adipisicing</p>
+				<p>Sed do eiusmod tempor</p>
+				<a href="https://w3layouts.com/">https://w3layouts.com/</a>
+			</div>
+			
+				<p>Consectetur adipisicing</p>
+				<p>Sed do eiusmod tempor</p>
+				<a href="https://w3layouts.com/">https://w3layouts.com/</a>
+		
+			</div>
+			<div class="col-md-4 footer-right">
+				<h4>Quick Links</h4>
+				<li><a href="#">Eiusmod tempor</a></li>
+				<li><a href="#">Consectetur </a></li>
+				<li><a href="#">Adipisicing elit</a></li>
+				<li><a href="#">Eiusmod tempor</a></li>
+				<li><a href="#">Consectetur </a></li>
+				<li><a href="#">Adipisicing elit</a></li>
+			</div>
+			<div class="clearfix"></div>
 		</div>
 	</div>
-	<!-- //what we do section -->
-
-	<!-- middle -->
-	<section class="midd-w3 py-5" id="faq">
-		<div class="container py-xl-5 py-lg-3">
-			<div class="row">
-				<div class="col-lg-6 about-right-faq">
-					<h6>Business Consultancy</h6>
-					<h3 class="text-da">25 Years of Industry Experience</h3>
-					<p class="mt-4">Integer pulvinar leo id viverra feugiat. Pellen tesque libero ut justo,
-						ultrices in ligula. Semper at tempufddfel, ultrices in ligula.</p>
-					<ul class="w3l-right-book mt-4">
-						<li>Marketing Base</li>
-						<li>Financial Consulting</li>
-						<li>Investment Advice</li>
-						<li>Business Growth</li>
-						<li>Technical Support</li>
-					</ul>
-					<a href="about.html" class="btn button-style button-style-2 mt-sm-5 mt-4">Read More</a>
+<!-- footer -->
+<!-- footer-bottom -->
+	<div class="foot-nav">
+	<div class="container">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="videos.html">Videos</a></li>
+			<li><a href="reviews.html">Reviews</a></li>
+			<li><a href="tech.html">Tech</a></li>
+			<li><a href="singlepage.html">Culture</a></li>
+			<li><a href="singlepage.html">Science</a></li>
+			<li><a href="design.html">Design</a></li>
+			<li><a href="business.html">Business</a></li>
+			<li><a href="world.html">World</a></li>
+			<li><a href="forum.html">Forum</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<div class="clearfix"></div>
+		</ul>
+		</div>
 				</div>
-				<div class="col-lg-6 left-wthree-img text-right">
-					<img src="images/b1.png" alt="" class="img-fluid mt-5" />
+<!-- footer-bottom -->
+			<div class="copyright">
+				<div class="container">
+					<p>© 2016 Business_Blog. All rights reserved | Template by <a href="http://w3layouts.com/">W3layouts</a></p>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- //middle -->
-
-	<!-- services -->
-	<section class="banner-bottom-w3layouts bg-li py-5" id="services">
-		<div class="container py-xl-5 py-lg-3">
-			<h3 class="tittle text-center font-weight-bold">Our Services</h3>
-			<p class="sub-tittle text-center mt-3 mb-sm-5 mb-4">Sed do eiusmod tempor incididunt ut labore et dolore magna
-				aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-			<div class="row pt-lg-4">
-				<div class="col-lg-4 about-in text-center">
-					<div class="card">
-						<div class="card-body">
-							<div class="bg-clr-w3l">
-								<span class="fa fa-line-chart"></span>
-							</div>
-							<h5 class="card-title mt-4 mb-3">Business Growth</h5>
-							<p class="card-text">Lorem ipsum dolor sit amet consectetur elit,Adipisicing elit tempor.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 about-in text-center my-lg-0 my-3">
-					<div class="card active">
-						<div class="card-body">
-							<div class="bg-clr-w3l">
-								<span class="fa fa-usd"></span>
-							</div>
-							<h5 class="card-title mt-4 mb-3">Financial Planning</h5>
-							<p class="card-text">Lorem ipsum dolor sit amet consectetur elit,Adipisicing elit tempor.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 about-in text-center">
-					<div class="card">
-						<div class="card-body">
-							<div class="bg-clr-w3l">
-								<span class="fa fa-lightbulb-o"></span>
-							</div>
-							<h5 class="card-title mt-4 mb-3">Business Services</h5>
-							<p class="card-text">Lorem ipsum dolor sit amet consectetur elit,Adipisicing elit tempor.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- //services -->
-
-	<!-- stats -->
-	<section class="bottom-count py-5" id="stats">
-		<div class="container py-xl-5 py-lg-3">
-			<div class="row">
-				<div class="col-lg-5 left-img-w3ls">
-					<img src="images/b2.png" alt="" class="img-fluid" />
-				</div>
-				<div class="col-lg-7 right-img-w3ls pl-lg-4 mt-lg-2 mt-4">
-					<div class="bott-w3ls mr-xl-5">
-						<h3 class="title-w3 text-bl mb-3 font-weight-bold">Some of Company Real Facts</h3>
-						<p class="title-sub-2 mb-3">Excepteur sint occaecat cupidatat <br>non proident.</p>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-							laudantium. </p>
-					</div>
-					<div class="row mt-5">
-						<div class="col-sm-4 count-w3ls">
-							<h4>1000+</h4>
-							<p>Project completed</p>
-						</div>
-						<div class="col-sm-4 count-w3ls mt-sm-0 mt-3">
-							<h4>480+</h4>
-							<p>Consultant</p>
-						</div>
-						<div class="col-sm-4 count-w3ls mt-sm-0 mt-3">
-							<h4>600+</h4>
-							<p>Award Winning</p>
-						</div>
-					</div>
-					<div class="row mt-sm-5 mt-4">
-						<div class="col-sm-4 count-w3ls">
-							<h4>480+</h4>
-							<p>Consultant</p>
-						</div>
-						<div class="col-sm-4 count-w3ls mt-sm-0 mt-3">
-							<h4>600+</h4>
-							<p>Award Winning</p>
-						</div>
-						<div class="col-sm-4 count-w3ls mt-sm-0 mt-3">
-							<h4>1000+</h4>
-							<p>Project completed</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- //stats -->
-
-	<!-- partners -->
-	<section class="partners py-5" id="partners">
-		<div class="container py-xl-5 py-lg-3">
-			<h3 class="tittle text-center font-weight-bold">Our Partners</h3>
-			<p class="sub-tittle text-center mt-3 mb-sm-5 mb-4">Sed do eiusmod tempor incididunt ut labore et dolore magna
-				aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-			<div class="row grid-part text-center pt-4">
-				<div class="col-md-2 col-4">
-					<div class="parts-w3ls">
-						<a href="#"><span class="fa fa-angellist"></span></a>
-						<h4>Angellist</h4>
-					</div>
-				</div>
-				<div class="col-md-2 col-4">
-					<div class="parts-w3ls">
-						<a href="#"><span class="fa fa-opencart"></span></a>
-						<h4>opencart</h4>
-					</div>
-				</div>
-				<div class="col-md-2 col-4">
-					<div class="parts-w3ls">
-						<a href="#"><span class="fa fa-lastfm"></span></a>
-						<h4>lastfm</h4>
-					</div>
-				</div>
-				<div class="col-md-2 col-4 mt-md-0 mt-4">
-					<div class="parts-w3ls">
-						<a href="#"><span class="fa fa-openid"></span></a>
-						<h4>openid</h4>
-					</div>
-				</div>
-				<div class="col-md-2 col-4 mt-md-0 mt-4">
-					<div class="parts-w3ls">
-						<a href="#"><span class="fa fa-skyatlas"></span></a>
-						<h4>skyatlas</h4>
-					</div>
-				</div>
-				<div class="col-md-2 col-4 mt-md-0 mt-4">
-					<div class="parts-w3ls">
-						<a href="#"><span class="fa fa-ravelry"></span></a>
-						<h4>ravelry</h4>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- //partners -->
-
-	<!-- footer -->
-	<footer class="bg-li py-5">
-		<div class="container py-xl-5 py-lg-3">
-			<!-- subscribe -->
-			<div class="subscribe mx-auto">
-				<div class="icon-effect-w3">
-					<span class="fa fa-envelope"></span>
-				</div>
-				<h2 class="tittle text-center font-weight-bold">Stay Updated!</h2>
-				<p class="sub-tittle text-center mt-3 mb-sm-5 mb-4">Sed do eiusmod tempor incididunt ut labore et dolore magna
-					aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-				<form action="#" method="post" class="subscribe-wthree pt-2">
-					<div class="d-flex subscribe-wthree-field">
-						<input class="form-control" type="email" placeholder="Enter your email..." name="email" required="">
-						<button class="btn form-control w-50" type="submit">Subscribe</button>
-					</div>
-				</form>
-			</div>
-			<!-- //subscribe -->
-		</div>
-	</footer>
-	<!-- //footer -->
-	<!-- copyright bottom -->
-	<div class="copy-bottom bg-li py-4 border-top">
-		<div class="container-fluid">
-			<div class="d-md-flex px-md-3 position-relative text-center">
-				<!-- footer social icons -->
-				<div class="social-icons-footer mb-md-0 mb-3">
-					<ul class="list-unstyled">
-						<li>
-							<a href="#">
-								<span class="fa fa-facebook"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-twitter"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-google-plus"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-instagram"></span>
-							</a>
-						</li>
-					</ul>
-				</div>
-				<!-- //footer social icons -->
-				<!-- copyright -->
-				<div class="copy_right mx-md-auto mb-md-0 mb-3">
-					<p class="text-bl let">© 2019 Startup. All rights reserved | Design by
-						<a href="http://w3layouts.com/" target="_blank">W3layouts</a>
-					</p>
-				</div>
-				<!-- //copyright -->
-				<!-- move top icon -->
-				<a href="#home" class="move-top text-center">
-					<span class="fa fa-level-up" aria-hidden="true"></span>
-				</a>
-				<!-- //move top icon -->
-			</div>
-		</div>
-	</div>
-	<!-- //copyright bottom -->
+	
 
 </body>
-
 </html>
