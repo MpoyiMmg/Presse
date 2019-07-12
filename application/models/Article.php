@@ -6,6 +6,10 @@
             $this->db->insert('article', $data);
         }
 
-        public function 
+        public function get_article(){
+            $query = $this->db->get('article')
+                              ->result();
+            return $query;
+        }
     }
 ?>
