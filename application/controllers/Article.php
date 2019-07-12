@@ -19,6 +19,12 @@
 
             $this->article->set_article($data);
         }
+
+        public function get_article(){
+            $data['articles'] = $this->article->get_article();
+
+            
+        }
     }
 
 ?>
