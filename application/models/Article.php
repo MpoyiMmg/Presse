@@ -2,7 +2,7 @@
 
     class Article extends CI_Model{
         
-        #############################################
+        ################### ARTICLE ##########################
         public function set_article($data){
             $this->db->insert('article', $data);
         }
@@ -12,10 +12,16 @@
                               ->result();
             return $query;
         }
-        #############################################
-        public function set_commentaire($id_article, $data){
-            $this->db->where('id', $id_article)
-                     ->insert('commentaire', $data);
+        ################### COMMENTAIRE ##########################
+        public function set_commentaire($data){
+            $this->db->insert('commentaire', $data);
+        }
+        ##########################################################
+        public function get_comment($id_article){
+            $query = $this->db->where('id',$id_article)
+                     ->get('commentaire')
+                     ->result();
+            return $query;
         }
     }
 ?>
