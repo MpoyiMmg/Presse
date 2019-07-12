@@ -12,7 +12,15 @@
                               ->result();
         }
 
-        public 
+        public function login($data){
+            $query = $this->db->where(array(
+                                        "email" => $data['email'],
+                                        "pwd"  => $data['pwd']
+                                ))
+                              ->get('client')
+                              ->result();
+            return $query;
+        }
     }
 
 ?>
