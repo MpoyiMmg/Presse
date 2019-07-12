@@ -10,8 +10,14 @@
             $vue = 89;
 
             $data = array(
-
+                'type' => $type,
+                'mention' => $mention,
+                'date'  => $date,
+                'id_client' => $id_client,
+                'vue'   => $vue
             );
+
+            $this->article->set_article($data);
         }
     }
 
