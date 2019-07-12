@@ -13,13 +13,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta name="keywords" content="Business_Blog Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="applijewelleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="<?= base_url('assets/css/bootstrap.css');?>" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<link href="css/style.css" rel='stylesheet' type='text/css' />	
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<link href="<?= base_url('assets/css/style.css'); ?>" rel='stylesheet' type='text/css' />	
+<script src="<?= base_url('assets/js/jquery-1.11.1.min.js'); ?>"></script>
+<script src="<?= base_url('assets/js/bootstrap.min.js');?>"></script>
 </head>
 <body>
 	<!--start-main-->
@@ -27,7 +27,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		        <div class="header-top">
 			        <div class="container">
 						<div class="logo">
-							<a href="index.html"><h1>BUSINESS BLOG</h1></a>
+							<a href="index.html"><h1>Presse</h1></a>
 						</div>
 						<div class="search">
 							<form>

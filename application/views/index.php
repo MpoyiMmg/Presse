@@ -14,13 +14,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta name="keywords" content="Business_Blog Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="applijewelleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="<?= base_url('assets/css/bootstrap.css'); ?>" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<link href="css/style.css" rel='stylesheet' type='text/css' />	
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<link href="<?= base_url('assets/css/style.css'); ?>" rel='stylesheet' type='text/css' />	
+<script src="<?= base_url('assets/js/jquery-1.11.1.min.js'); ?>"></script>
+<script src="<?= base_url('assets/js/bootstrap.min.js'); ?>"></script>
 </head>
 <body>
 	<!--start-main-->
@@ -65,7 +65,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="videos.html">Videos</a></li>
+            <li><a href="<?= site_url('welcome/load_video_view'); ?>">Videos</a></li>
             <li><a href="reviews.html">Reviews</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tech <span class="caret"></span></a>
@@ -130,7 +130,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			 <div class="tc-ch">
 				
 					<div class="tch-img">
-						<a href="singlepage.html"><img src="images/1.jpg" class="img-responsive" alt=""/></a>
+						<a href="singlepage.html"><img src="<?= base_url('assets/images/1.jpg');?>" class="img-responsive" alt=""/></a>
 					</div>
 					<a class="blog blue" href="singlepage.html">Technology</a>
 					<h3><a href="singlepage.html">Lorem Ipsum is simply</a></h3>
@@ -226,7 +226,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			 <div class="tc-ch">
 					<div class="tch-img">
-						<a href="singlepage.html"><img src="images/4.jpg" class="img-responsive" alt=""/></a>
+						<a href="singlepage.html"><img src="<?= base_url("assets/images/4.jpg"); ?>" class="img-responsive" alt=""/></a>
 					</div>
 					<a class="blog orn" href="singlepage.html">Business</a>
 					<h3><a href="singlepage.html">Lorem Ipsum is simply</a></h3>
@@ -258,7 +258,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			 <div class="tc-ch">
 				
 					<div class="tch-img">
-						<a href="singlepage.html"><img src="images/5.jpg" class="img-responsive" alt=""/></a>
+						<a href="singlepage.html"><img src="<?= base_url(); ?>assets/images/5.jpg" class="img-responsive" alt=""/></a>
 					</div>
 					<a class="blog blue" href="singlepage.html">Technology</a>
 					<h3><a href="singlepage.html">Lorem Ipsum is simply</a></h3>
@@ -282,7 +282,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="col-md-3 technology-right">
 				<div class="blo-top">
 					<div class="tech-btm">
-					<img src="images/banner1.jpg" class="img-responsive" alt=""/>
+					<img src="<?= base_url(); ?>assets/images/banner1.jpg" class="img-responsive" alt=""/>
 					</div>
 				</div>
 				<div class="blo-top">
@@ -307,7 +307,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h4>Top stories of the week </h4>
 						<div class="blog-grids">
 							<div class="blog-grid-left">
-								<a href="singlepage.html"><img src="images/6.jpg" class="img-responsive" alt=""/></a>
+								<a href="singlepage.html"><img src="<?= base_url('images/6.jpg');?>" class="img-responsive" alt=""/></a>
 							</div>
 							<div class="blog-grid-right">
 								
@@ -317,7 +317,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="blog-grids">
 							<div class="blog-grid-left">
-								<a href="singlepage.html"><img src="images/7.jpg" class="img-responsive" alt=""/></a>
+								<a href="singlepage.html"><img src="<?	base_url('images/7.jpg');?>" class="img-responsive" alt=""/></a>
 							</div>
 							<div class="blog-grid-right">
 								

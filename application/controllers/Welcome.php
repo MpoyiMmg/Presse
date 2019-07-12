@@ -22,4 +22,8 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('index');
 	}
+
+	public function load_video_view(){
+		$this->load->view('videos');
+	}
 }
